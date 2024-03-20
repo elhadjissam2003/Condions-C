@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+
+int n1,n2;
+printf("Test Data :");
+scanf("%d%d",&n1,&n2);
+if(n1==n2){
+    printf("Number1 and Number2 are equal");
+}else{
+        printf("Number1 and Number2 not equal");
+
+}
+
+    return 0;
+}
